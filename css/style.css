@@ -49,6 +49,7 @@ nav a:hover{
     align-items:center;
     text-align:center;
     
+    
 }
 .hero h1{
     font-size:64px;
@@ -58,6 +59,7 @@ nav a:hover{
     font-size:24px;
     color:#cbd5e1;
 }
+
 button{
     transition:.3s;
 }
@@ -80,4 +82,71 @@ button{
 
 button:hover{
     background:#0284c7;
+}
+.about{
+    min-height:100vh;
+    padding:100px 10%;
+    display:flex;
+    align-items:center;
+}
+
+.about-content{
+    max-width:700px;
+}
+
+.about h2{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.about p{
+    font-size:20px;
+    line-height:1.8;
+    color:#d0d0d0;
+}
+.about{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:80px;
+    padding:100px 10%;
+}
+
+.about-img img{
+    width:320px;
+    border-radius:50%;
+    border:5px solid #25a9ee;
+    box-shadow:0 0 25px #25a9ee;
+}
+
+.about-content{
+    max-width:600px;
+}
+
+.about-content h2{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.about-content p{
+    font-size:20px;
+    line-height:1.8;
+    color:#d4d4d4;
+    margin-bottom:20px;
+}
+
+.about-content button{
+    padding:15px 35px;
+    font-size:18px;
+    border:none;
+    border-radius:10px;
+    background:#25a9ee;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.about-content button:hover{
+    transform:scale(1.05);
 }
