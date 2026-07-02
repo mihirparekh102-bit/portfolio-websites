@@ -173,6 +173,7 @@ button:hover{
     margin:20px 0 10px;
 }
 
+
 .bar{
     width:100%;
     height:12px;
@@ -202,4 +203,162 @@ button:hover{
 
 .git{
     width:80%;
+}
+/* ===========================
+   Projects Section
+=========================== */
+
+.projects{
+    min-height:100vh;
+    padding:100px 10%;
+}
+
+.projects h2{
+    text-align:center;
+    font-size:50px;
+    margin-bottom:50px;
+}
+
+.project-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.project-card{
+    width:320px;
+    background:#1f2937;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    transition:.3s;
+    border:2px solid transparent;
+}
+
+.project-card:hover{
+    transform:translateY(-10px);
+    border-color:#25a9ee;
+    box-shadow:0 0 20px rgba(37,169,238,.5);
+}
+
+.project-card h3{
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.project-card p{
+    color:#d4d4d4;
+    line-height:1.7;
+    margin-bottom:25px;
+}
+
+.project-card button{
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    background:#25a9ee;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.project-card button:hover{
+    background:#0b8ed3;
+}
+.project-card button:hover{
+    transform: scale(1.05);
+}
+/* ===========================
+   Contact Section
+=========================== */
+
+.contact{
+    min-height:100vh;
+    padding:100px 10%;
+}
+
+.contact h2{
+    text-align:center;
+    font-size:50px;
+    margin-bottom:60px;
+}
+
+.contact-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
+    flex-wrap:wrap;
+}
+
+.contact-info{
+    flex:1;
+}
+
+.contact-info h3{
+    font-size:35px;
+    margin-bottom:25px;
+}
+
+.contact-info p{
+    font-size:20px;
+    margin-bottom:20px;
+    color:#d4d4d4;
+}
+
+.contact-form{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:#1f2937;
+    color:white;
+    font-size:18px;
+    outline:none;
+}
+
+.contact-form textarea{
+    height:150px;
+    resize:none;
+}
+
+.contact-form button{
+    width:200px;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:#25a9ee;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.contact-form button:hover{
+    background:#0b8ed3;
+    transform:scale(1.05);
+    box-shadow:0 0 20px rgba(37,169,238,.5);
+}
+/* ===========================
+   Footer
+=========================== */
+
+footer{
+    background:#1f2937;
+    text-align:center;
+    padding:25px;
+}
+
+footer p{
+    color:#d4d4d4;
+    font-size:18px;
 }
