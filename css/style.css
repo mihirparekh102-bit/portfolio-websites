@@ -150,3 +150,56 @@ button:hover{
 .about-content button:hover{
     transform:scale(1.05);
 }
+.skills{
+    min-height:100vh;
+    padding:100px 10%;
+}
+
+.skills h2{
+    text-align:center;
+    font-size:50px;
+    margin-bottom:50px;
+}
+
+.skill{
+    max-width:700px;
+    margin:auto;
+}
+
+.skill p{
+    display:flex;
+    justify-content:space-between;
+    font-size:20px;
+    margin:20px 0 10px;
+}
+
+.bar{
+    width:100%;
+    height:12px;
+    background:#2d3648;
+    border-radius:10px;
+    overflow:hidden;
+    margin-bottom:25px;
+}
+
+.bar div{
+    height:100%;
+    background:#25a9ee;
+    border-radius:10px;
+}
+
+.html{
+    width:90%;
+}
+
+.css{
+    width:85%;
+}
+
+.javascript{
+    width:70%;
+}
+
+.git{
+    width:80%;
+}
