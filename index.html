@@ -6,7 +6,16 @@
     <title>My Portfolio</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 </head>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+    duration: 1000,
+    once: true
+});
+</script>
 
 <body>
 
@@ -29,6 +38,9 @@
     <p>Frontend Developer | UI/UX Learner</p>
 
     <button>Hire Me</button>
+    <section class="hero" id="home" data-aos="fade-up">
+
+    </section>
 
 </section>
 <section class="about" id="about">
@@ -53,8 +65,8 @@
         <button>Download CV</button>
 
     </div>
+    <section class="about" id="about" data-aos="fade-right"></section>
 
-</section>
 </section>
 <section class="skills" id="skills">
 
@@ -83,6 +95,7 @@
         </div>
 
     </div>
+    <section class="skills" id="skills" data-aos="fade-left"></section>
 
 </section>
 <section class="projects" id="projects">
@@ -110,6 +123,7 @@
         </div>
 
     </div>
+    <section class="projects" id="projects" data-aos="zoom-in"></section>
 
 </section>
 <section class="contact" id="contact">
@@ -142,6 +156,7 @@
         </form>
 
     </div>
+    <section class="contact" id="contact" data-aos="fade-up"></section>
 
 </section>
 <footer>
