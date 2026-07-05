@@ -16,7 +16,6 @@ top:0;
 left:0;
 width:100%;
 z-index:1000;
-
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -263,6 +262,18 @@ button:hover{
 .project-card button:hover{
     transform: scale(1.05);
 }
+.project-card a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-card a:visited{
+    color: inherit;
+}
+
+.project-card a:hover{
+    color: inherit;
+}
 /* ===========================
    Contact Section
 =========================== */
@@ -411,4 +422,58 @@ button:hover{
 }
 html{
     scroll-behavior: smooth;
+    .skills{
+    padding: 80px 10%;
+    background: #111827;
+    text-align: center;
+}
+
+.skills h2{
+    font-size: 48px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.skill-card{
+    background: #1f2937;
+    color: white;
+    width: 180px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.skill-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px #38bdf8;
+}
+
+.skill-card h3{
+    font-size: 24px;
+}
+.skills{
+    padding: 60px 20px;
+}
+
+.skills h2{
+    font-size: 36px;
+}
+
+.skill-card{
+    width: 140px;
+    padding: 20px;
+}
+
+.skill-card h3{
+    font-size: 20px;
+}
 }
